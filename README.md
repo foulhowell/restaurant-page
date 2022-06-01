@@ -1,0 +1,1 @@
+A fake restaurant page created entirely through the DOM with Javascript.
