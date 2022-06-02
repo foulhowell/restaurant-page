@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --primary-color: #7a3b2e;
+    --secondary-color: #a79e84;
+
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    background-color: var(--primary-color);
+    height: 70px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-self: stretch;
+}
+
+.navbar-btn {
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    outline: none;
+}
+
+#home-content {
+    background-color: var(--secondary-color);
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-img {
+    width: 70%;
+    height: auto;
+}
