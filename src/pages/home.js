@@ -10,7 +10,7 @@ const displayHome = () => {
     homeContent.appendChild(homeHeader);
 
     const homePara = document.createElement('div');
-    homePara.textContent = "Well, whaddya know! Dexter's Diner is the #1 spot on Coruscant. Need a quick bite or drink? Our owner and chef Dex will get you fixed right up alongside our great wait staff. Frequented by Jedi Master Obi-Wan Kenobi!";
+    homePara.textContent = "Well, whaddya know! Dexter's Diner is the #1 spot on Coruscant. Need a quick bite or drink? Our owner and chef Dex will get you fixed right up alongside our great wait staff. Frequented by Jedi Master Obi-Wan Kenobi! Find us in Coco Town, Coruscant.";
     homePara.setAttribute('id','home-paragraph');
     homeContent.appendChild(homePara);
 

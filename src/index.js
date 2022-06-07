@@ -5,7 +5,7 @@ import { displayContact } from "./pages/contact";
 displayNavbar();
 displayHome();
 
-const hi = (() => {
+const tabManager = (() => {
     const navbarButtons = document.querySelectorAll('.navbar-btn');
     const content = document.querySelector('#content');
     let currentTab = 'home';
@@ -36,5 +36,4 @@ const hi = (() => {
             currentTab = 'contact';
         }
     }
-
 })();
