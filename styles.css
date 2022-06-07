@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-image: url("../src/img/stars.jpeg");
+    background-color: #cccccc;
 }
 
 :root {
@@ -14,6 +16,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Navbar Styling*/
 
 #navbar {
     background-color: var(--primary-color);
@@ -31,8 +35,11 @@ body {
     outline: none;
 }
 
+/* Home Page Styling */
+
 #home-content {
     background-color: var(--secondary-color);
+    padding: 40px;
     width: 50%;
     display: flex;
     gap: 40px;
@@ -44,4 +51,31 @@ body {
 #home-img {
     width: 70%;
     height: auto;
+}
+
+/* Menu Page Styling */
+
+#menu-content {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact Page Styling */
+
+#contact-content {
+    background-color: var(--secondary-color);
+    width: 50%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.worker-contact {
+    background-color: var(--primary-color);
 }
